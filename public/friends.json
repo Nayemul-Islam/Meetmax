@@ -1,0 +1,11 @@
+ [
+    { "id": 1, "name": "Alice Charle", "img": "../src/assets/friend1.jpg" },
+    { "id": 2, "name": "Bob Jack", "img": "../src/assets/friend2.jpg" },
+    { "id": 3, "name": "Nirob Ahashan", "img": "../src/assets/friend3.jpg" },
+    { "id": 4, "name": "Tamim Iqbal", "img": "../src/assets/friend4.jpg" },
+    { "id": 5, "name": "Korim Sarkar", "img": "../src/assets/friend5.jpg" },
+    { "id": 6, "name": "Abdul Kayiyum", "img": "../src/assets/friend6.jpg" },
+    { "id": 7, "name": "Miraz Uddin", "img": "../src/assets/friend7.jpg" },
+    { "id": 8, "name": "Nayemul Islam", "img": "../src/assets/friend8.jpg" }
+
+  ]
