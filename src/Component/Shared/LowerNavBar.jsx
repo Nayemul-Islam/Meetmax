@@ -6,7 +6,7 @@ export default function LowerNavBar() {
   const [popupType, setPopupType] = useState(null);
   const [friends, setFriends] = useState([]);
   useEffect(() => {
-    fetch("/public/friends.json")
+    fetch("/friends.json")
       .then((res) => res.json())
       .then((data) => setFriends(data))
       .catch((error) => console.log(error));

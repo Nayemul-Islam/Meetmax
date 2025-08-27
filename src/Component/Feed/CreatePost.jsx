@@ -3,7 +3,7 @@ import { TbPhoto } from "react-icons/tb";
 import { RiUserSmileLine } from "react-icons/ri";
 const CreatePost = () => {
   return (
-    <div className="mt-5 shadow-xl bg-white">
+    <div className="mt-2 shadow-xs bg-gray-10">
       <div className="flex items-center gap-2">
         <img
           src="/src/assets/user.jpg"

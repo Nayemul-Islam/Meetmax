@@ -11,10 +11,10 @@ const Stories = () => {
   }, []);
 
   return (
-    <div className="flex gap-3 -mx-2 pt-1 mt-5 md:justify-between overflow-hidden">
+    <div className="flex gap-3 pt-3 -ml-3 mt-2 pr-2 md:justify-between overflow-hidden">
       {/* User story */}
       <div className="relative flex flex-col items-center w-16 flex-shrink-0">
-        <div className="w-12 h-12 rounded-full ring-2 ring-blue-500 overflow-hidden">
+        <div className="w-10 h-10 rounded-full ring-2 ring-blue-500 overflow-hidden">
           <img
             src="/src/assets/user.jpg"
             alt="User"
@@ -34,9 +34,9 @@ const Stories = () => {
       {friends.map((f) => (
         <div
           key={f.id}
-          className="flex flex-col items-center w-12 flex-shrink-0"
+          className="flex flex-col items-center w-10 flex-shrink-0"
         >
-          <div className="relative w-12 h-12 rounded-full ring-2 ring-blue-500  overflow-hidden">
+          <div className="relative w-10 h-10 rounded-full ring-2 ring-blue-500  overflow-hidden">
             <img
               src={f.img}
               alt={f.name}
@@ -44,7 +44,7 @@ const Stories = () => {
               loading="lazy"
             />
           </div>
-          <span className="text-xs mt-1 truncate max-w-13 md:max-w-fit">
+          <span className="text-xs mt-1 truncate max-w-12 md:max-w-fit">
             {f.name}
           </span>
         </div>
