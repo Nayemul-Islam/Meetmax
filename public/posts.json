@@ -1,60 +1,60 @@
 [
   {
     "id": 1,
-    "author": { "name": "Alice Charle", "avatar": "../src/assets/friend1.jpg" },
+    "author": { "name": "Alice Charle", "avatar": "/image/friend1.jpg" },
     "time": "15h",
     "visibility": "Public",
-    "contentImage": "../src/assets/post1.jpg",
+    "contentImage": "/image/post1.jpg",
     "likes": 12,
     "comments": 3,
     "shares": 17
   },
   {
     "id": 2,
-    "author": { "name": "Bob Jack", "avatar": "../src/assets/friend2.jpg" },
+    "author": { "name": "Bob Jack", "avatar": "/image/friend2.jpg" },
     "time": "1d",
     "visibility": "Friends",
-    "contentImage": "../src/assets/post2.jpg",
+    "contentImage": "/image/post2.jpg",
     "likes": 42,
     "comments": 9,
     "shares": 3
   },
   {
     "id": 3,
-    "author": { "name": "Nirob Ahashan", "avatar": "../src/assets/friend3.jpg" },
+    "author": { "name": "Nirob Ahashan", "avatar": "/image/friend3.jpg" },
     "time": "2d",
     "visibility": "Public",
-    "contentImage": "../src/assets/post3.jpg",
+    "contentImage": "/image/post3.jpg",
     "likes": 18,
     "comments": 5,
     "shares": 8
   },
   {
     "id": 4,
-    "author": { "name": "Tamim Iqbal", "avatar": "../src/assets/friend4.jpg" },
+    "author": { "name": "Tamim Iqbal", "avatar": "/image/friend4.jpg" },
     "time": "3d",
     "visibility": "Friends",
-    "contentImage": "../src/assets/post4.jpg",
+    "contentImage": "/image/post4.jpg",
     "likes": 33,
     "comments": 7,
     "shares": 12
   },
   {
     "id": 5,
-    "author": { "name": "Korim Sarkar", "avatar": "../src/assets/friend5.jpg" },
+    "author": { "name": "Korim Sarkar", "avatar": "/image/friend5.jpg" },
     "time": "4d",
     "visibility": "Public",
-    "contentImage": "../src/assets/post5.jpg",
+    "contentImage": "/image/post5.jpg",
     "likes": 27,
     "comments": 4,
     "shares": 6
   },
   {
     "id": 6,
-    "author": { "name": "Abdul Kayiyum", "avatar": "../src/assets/friend6.jpg" },
+    "author": { "name": "Abdul Kayiyum", "avatar": "/image/friend6.jpg" },
     "time": "5d",
     "visibility": "Friends",
-    "contentImage": "../src/assets/post6.jpg",
+    "contentImage": "/image/post6.jpg",
     "likes": 50,
     "comments": 12,
     "shares": 20

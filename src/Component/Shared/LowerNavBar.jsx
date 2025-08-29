@@ -95,9 +95,10 @@ export default function LowerNavBar() {
                       className="flex items-center gap-3 hover:bg-gray-100 p-2 rounded-lg"
                     >
                       <img
-                        src={friend.img}
+                        src={`/${friend.img}`}
                         alt={friend.name}
-                        className="w-10 h-10 rounded-full"
+                        className="w-10 h-10 rounded-full object-cover"
+                        loading="lazy" 
                       />
                       <span className="text-sm">{friend.name}</span>
                     </div>
@@ -116,7 +117,12 @@ export default function LowerNavBar() {
                   <li className="cursor-pointer hover:text-blue-500">
                     Privacy
                   </li>
-                  <li onClick={handleSignOut} className="cursor-pointer hover:text-red-500">Log Out</li>
+                  <li
+                    onClick={handleSignOut}
+                    className="cursor-pointer hover:text-red-500"
+                  >
+                    Log Out
+                  </li>
                 </ul>
               </div>
             )}

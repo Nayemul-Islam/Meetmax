@@ -6,7 +6,7 @@ const CreatePost = () => {
     <div className="mt-2 shadow-xs bg-gray-10">
       <div className="flex items-center gap-2">
         <img
-          src="/src/assets/user.jpg"
+          src="/image/user.jpg"
           alt="user"
           className="w-10 h-10 rounded-full object-cover"
         />

@@ -69,7 +69,7 @@ const PostCard = ({ post }) => {
       {/* Comment input */}
       <div className="mt-2 flex items-center gap-2">
         <img
-          src={"/src/assets/user.jpg"}
+          src={"/image/user.jpg"}
           alt="me"
           className="w-8 h-8 object-cover rounded-full"
         />

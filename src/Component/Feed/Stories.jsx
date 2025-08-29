@@ -16,7 +16,7 @@ const Stories = () => {
       <div className="relative flex flex-col items-center w-16 flex-shrink-0">
         <div className="w-10 h-10 rounded-full ring-2 ring-blue-500 overflow-hidden">
           <img
-            src="/src/assets/user.jpg"
+            src="/image/user.jpg"
             alt="User"
             className="w-full h-full object-cover"
           />

@@ -6,7 +6,7 @@ const NavBar = () => {
       {/* Left: User pic */}
       <div className="w-10 h-10 overflow-hidden rounded-xl">
         <img
-          src="/src/assets/user.jpg"
+          src="/image/user.jpg"
           alt="User Face"
           className="w-full h-full object-cover"
         />
